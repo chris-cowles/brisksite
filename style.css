@@ -31,7 +31,7 @@ body {
   color: black;
 }
 
-h1:hover {
+h1 {
   display: inline-block;
   animation: weeee 1s infinite alternate;
 }
@@ -47,6 +47,29 @@ h1:hover {
     color: white;
   }
   75% {
+    color: black;
+  }
+  100% {
+    transform: translateX(101%);
+    color: black;
+  }
+}
+/* make h1 move from left to right */
+@keyframes weeee {
+  0% {
+    transform: translateX(-101%);
+    color: black;
+  }
+  25% {
+    transform: translateX(-101%);
+    color: black;
+  }
+  50% {
+    transform: translateX(0);
+    color: white;
+  }
+  75% {
+    transform: translateX(101%);
     color: black;
   }
   100% {
