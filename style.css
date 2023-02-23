@@ -33,7 +33,7 @@ body {
 
 h1 {
   display: inline-block;
-  animation: weeee 1s infinite alternate;
+  animation: weeee 4s infinite alternate;
 }
 
 @keyframes weeee {
