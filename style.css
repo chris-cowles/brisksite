@@ -77,3 +77,18 @@ h1 {
     color: black;
   }
 }
+
+p {
+  text-align: bottom;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0;
+}
